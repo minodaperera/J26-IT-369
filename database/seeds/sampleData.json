@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "name": "Team Member 1 (Lead & Architect)",
+      "email": "lead@safemaga.research",
+      "password": "hashed_password_placeholder_lead",
+      "role": "lead",
+      "assignedSubsystem": "backend"
+    },
+    {
+      "name": "Team Member 2 (Frontend Specialist)",
+      "email": "frontend@safemaga.research",
+      "password": "hashed_password_placeholder_fe",
+      "role": "engineer",
+      "assignedSubsystem": "frontend"
+    },
+    {
+      "name": "Team Member 3 (ML & Data Scientist)",
+      "email": "ml@safemaga.research",
+      "password": "hashed_password_placeholder_ml",
+      "role": "researcher",
+      "assignedSubsystem": "ai-ml"
+    },
+    {
+      "name": "Team Member 4 (Data Engineer & QA)",
+      "email": "data@safemaga.research",
+      "password": "hashed_password_placeholder_data",
+      "role": "engineer",
+      "assignedSubsystem": "database"
+    }
+  ],
+  "analyses": [
+    {
+      "experimentId": "EXP-2026-001",
+      "title": "Baseline Logistic Regression on Synthetic Vector Embeddings",
+      "hypothesis": "A linear decision boundary yields >80% accuracy on normalized vector inputs.",
+      "datasetReference": "ai-ml/data/processed/cleaned_dataset.csv",
+      "metrics": {
+        "accuracy": 0.885,
+        "precision": 0.864,
+        "recall": 0.912,
+        "f1Score": 0.887,
+        "latencyMs": 14.2
+      },
+      "tags": ["baseline", "logistic-regression", "v1.0"],
+      "executedBy": "ml@safemaga.research"
+    },
+    {
+      "experimentId": "EXP-2026-002",
+      "title": "Ablation Study on Feature Correlated Noise Reduction",
+      "hypothesis": "Removing feature B noise improves model stability and reduces false alarms.",
+      "datasetReference": "ai-ml/data/processed/cleaned_dataset.csv",
+      "metrics": {
+        "accuracy": 0.921,
+        "precision": 0.908,
+        "recall": 0.935,
+        "f1Score": 0.921,
+        "latencyMs": 12.8
+      },
+      "tags": ["ablation", "noise-reduction", "v1.1"],
+      "executedBy": "lead@safemaga.research"
+    }
+  ]
+}
