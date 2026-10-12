@@ -1,0 +1,2 @@
+# Place raw, immutable input research datasets in this directory.
+# Raw datasets are ignored by git to avoid committing large binaries.

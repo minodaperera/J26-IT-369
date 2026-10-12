@@ -1,0 +1,112 @@
+# ==============================================================================
+# SafeMaga Workspace - Comprehensive .gitignore
+# Covers Node.js, Python/FastAPI, Vite/React, MongoDB, OS files, and Secrets
+# ==============================================================================
+
+# --- Environment & Secret Configuration Files ---
+.env
+.env.*
+!.env.example
+!.env.test
+*.pem
+*.key
+*.cert
+*.pfx
+
+# --- Node.js / JavaScript / Frontend & Backend ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# Build and distribution directories
+dist/
+dist-ssr/
+build/
+out/
+.cache/
+.parcel-cache/
+.eslintcache/
+.stylelintcache/
+*.tsbuildinfo
+
+# --- Python / AI-ML Research Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ML artifacts, large datasets, and checkpoints (track configs/scripts, ignore large binaries)
+ai-ml/data/raw/*
+!ai-ml/data/raw/.gitkeep
+ai-ml/data/processed/*
+!ai-ml/data/processed/.gitkeep
+ai-ml/saved_models/*
+!ai-ml/saved_models/.gitkeep
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+*.pkl
+*.joblib
+*.parquet
+*.feather
+*.tar.gz
+*.zip
+
+# PyTest & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+
+# --- Database & Local Storage ---
+database/data/
+*.sqlite
+*.sqlite3
+*.db
+mongod.log
+
+# --- IDEs & Code Editors ---
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# --- Operating System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# --- Logs & Diagnostics ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+fastapi.log
+uvicorn.log
