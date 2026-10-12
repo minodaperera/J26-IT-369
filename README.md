@@ -1,3 +1,6 @@
+# J26-IT-369
+GitHub repository for Group J26 – IT – 369
+
 # SafeMaga | Intelligent Research & Analytics Platform
 
 [![Node.js Version](https://img.shields.io/badge/Node.js-18.x%2B-green.svg)](https://nodejs.org/)
