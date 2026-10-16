@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 
 import { PassportChecker } from './components/PassportChecker';
-import { PublicComplaintPortal } from './components/PublicComplaintPortal';
+import PublicComplaintPortal  from './components/PublicComplaintPortal';
 import { AgencyMap } from './components/AgencyMap';
 
 const DISTRICTS = [
