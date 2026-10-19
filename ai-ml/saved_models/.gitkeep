@@ -1,0 +1,2 @@
+# Serialized model weights, checkpoints, and pipeline artifacts (.joblib, .pt, .onnx) go here.
+# Binary artifacts are excluded from git. Track checkpoints using experiment logs.
