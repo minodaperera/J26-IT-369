@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import { PassportChecker } from './components/PassportChecker';
 import PublicComplaintPortal  from './components/PublicComplaintPortal';
 import { AgencyMap } from './components/AgencyMap';
+import OfficerDashboard from './pages/OfficerDashboard';
 
 const DISTRICTS = [
   'COLOMBO', 'GAMPAHA', 'KALUTARA', 'KANDY', 'MATALE', 'NUWARA ELIYA',
@@ -231,6 +232,7 @@ export default function App() {
         <Route path="/passport" element={<PassportPage />} />
         <Route path="/complaints" element={<ComplaintPage />} />
         <Route path="/agencies" element={<AgencyPageWrapper />} />
+        <Route path="/officer-dashboard" element={<OfficerDashboard />} />
       </Routes>
     </BrowserRouter>
   );
