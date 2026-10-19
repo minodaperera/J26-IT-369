@@ -1,0 +1,1022 @@
+[
+  {
+    "name": "India",
+    "slug": "india",
+    "passportType": "Normal Passport",
+    "entryType": "E-Visa (Online)",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for India, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in India.",
+          "business": "Official corporate invitation letter from a registered company in India.",
+          "student": "Official admission or acceptance letter from an educational institution in India.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in India.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to India."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in India.",
+          "medical": "Health fitness certificates and medical clearance documentation required by India health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in India.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in India.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in India.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Malaysia",
+    "slug": "malaysia",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for Malaysia, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in Malaysia.",
+          "business": "Official corporate invitation letter from a registered company in Malaysia.",
+          "student": "Official admission or acceptance letter from an educational institution in Malaysia.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in Malaysia.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to Malaysia."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in Malaysia.",
+          "medical": "Health fitness certificates and medical clearance documentation required by Malaysia health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in Malaysia.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in Malaysia.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in Malaysia.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "United Arab Emirates",
+    "slug": "united-arab-emirates",
+    "passportType": "Normal Passport",
+    "entryType": "E-Visa (Online)",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for United Arab Emirates, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in United Arab Emirates.",
+          "business": "Official corporate invitation letter from a registered company in United Arab Emirates.",
+          "student": "Official admission or acceptance letter from an educational institution in United Arab Emirates.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in United Arab Emirates.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to United Arab Emirates."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in United Arab Emirates.",
+          "medical": "Health fitness certificates and medical clearance documentation required by United Arab Emirates health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in United Arab Emirates.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in United Arab Emirates.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in United Arab Emirates.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Japan",
+    "slug": "japan",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa / Electronic Travel Authorization",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for Japan, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in Japan.",
+          "business": "Official corporate invitation letter from a registered company in Japan.",
+          "student": "Official admission or acceptance letter from an educational institution in Japan.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in Japan.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to Japan."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in Japan.",
+          "medical": "Health fitness certificates and medical clearance documentation required by Japan health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in Japan.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in Japan.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in Japan.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "United Kingdom",
+    "slug": "united-kingdom",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa / Electronic Travel Authorization",
+    "biometrics": true,
+    "interview": true,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for United Kingdom, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in United Kingdom.",
+          "business": "Official corporate invitation letter from a registered company in United Kingdom.",
+          "student": "Official admission or acceptance letter from an educational institution in United Kingdom.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in United Kingdom.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to United Kingdom."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in United Kingdom.",
+          "medical": "Health fitness certificates and medical clearance documentation required by United Kingdom health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in United Kingdom.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in United Kingdom.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in United Kingdom.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Australia",
+    "slug": "australia",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa / Electronic Travel Authorization",
+    "biometrics": true,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for Australia, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in Australia.",
+          "business": "Official corporate invitation letter from a registered company in Australia.",
+          "student": "Official admission or acceptance letter from an educational institution in Australia.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in Australia.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to Australia."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in Australia.",
+          "medical": "Health fitness certificates and medical clearance documentation required by Australia health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in Australia.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in Australia.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in Australia.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "South Korea",
+    "slug": "south-korea",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for South Korea, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in South Korea.",
+          "business": "Official corporate invitation letter from a registered company in South Korea.",
+          "student": "Official admission or acceptance letter from an educational institution in South Korea.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in South Korea.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to South Korea."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in South Korea.",
+          "medical": "Health fitness certificates and medical clearance documentation required by South Korea health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in South Korea.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in South Korea.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in South Korea.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Germany",
+    "slug": "germany",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for Germany, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in Germany.",
+          "business": "Official corporate invitation letter from a registered company in Germany.",
+          "student": "Official admission or acceptance letter from an educational institution in Germany.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in Germany.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to Germany."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in Germany.",
+          "medical": "Health fitness certificates and medical clearance documentation required by Germany health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in Germany.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in Germany.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in Germany.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "France",
+    "slug": "france",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for France, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in France.",
+          "business": "Official corporate invitation letter from a registered company in France.",
+          "student": "Official admission or acceptance letter from an educational institution in France.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in France.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to France."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in France.",
+          "medical": "Health fitness certificates and medical clearance documentation required by France health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in France.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in France.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in France.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Italy",
+    "slug": "italy",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for Italy, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in Italy.",
+          "business": "Official corporate invitation letter from a registered company in Italy.",
+          "student": "Official admission or acceptance letter from an educational institution in Italy.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in Italy.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to Italy."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in Italy.",
+          "medical": "Health fitness certificates and medical clearance documentation required by Italy health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in Italy.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in Italy.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in Italy.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "Turkey",
+    "slug": "turkey",
+    "passportType": "Normal Passport",
+    "entryType": "E-Visa (Online)",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for Turkey, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in Turkey.",
+          "business": "Official corporate invitation letter from a registered company in Turkey.",
+          "student": "Official admission or acceptance letter from an educational institution in Turkey.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in Turkey.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to Turkey."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in Turkey.",
+          "medical": "Health fitness certificates and medical clearance documentation required by Turkey health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in Turkey.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in Turkey.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in Turkey.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "China",
+    "slug": "china",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for China, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in China.",
+          "business": "Official corporate invitation letter from a registered company in China.",
+          "student": "Official admission or acceptance letter from an educational institution in China.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in China.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to China."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in China.",
+          "medical": "Health fitness certificates and medical clearance documentation required by China health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in China.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in China.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in China.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "South Africa",
+    "slug": "south-africa",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa",
+    "biometrics": false,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for South Africa, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in South Africa.",
+          "business": "Official corporate invitation letter from a registered company in South Africa.",
+          "student": "Official admission or acceptance letter from an educational institution in South Africa.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in South Africa.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to South Africa."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in South Africa.",
+          "medical": "Health fitness certificates and medical clearance documentation required by South Africa health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in South Africa.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in South Africa.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in South Africa.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "New Zealand",
+    "slug": "new-zealand",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa / Electronic Travel Authorization",
+    "biometrics": true,
+    "interview": false,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for New Zealand, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in New Zealand.",
+          "business": "Official corporate invitation letter from a registered company in New Zealand.",
+          "student": "Official admission or acceptance letter from an educational institution in New Zealand.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in New Zealand.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to New Zealand."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in New Zealand.",
+          "medical": "Health fitness certificates and medical clearance documentation required by New Zealand health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in New Zealand.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in New Zealand.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in New Zealand.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  },
+  {
+    "name": "United States",
+    "slug": "united-states",
+    "passportType": "Normal Passport",
+    "entryType": "Embassy Visa / Electronic Travel Authorization",
+    "biometrics": true,
+    "interview": true,
+    "notes": [
+      "Ensure passport is valid for at least 6 months beyond arrival."
+    ],
+    "categories": [
+      {
+        "order": 1,
+        "category": "Visa / Entry Permit",
+        "requirements": {
+          "traveler": "Valid approved electronic or physical visa for United States, plus return flight tickets.",
+          "medical": "Official hospital invitation letter from a recognized medical institution in United States.",
+          "business": "Official corporate invitation letter from a registered company in United States.",
+          "student": "Official admission or acceptance letter from an educational institution in United States.",
+          "child": "Child must have their own separate passport. For newborns without a passport, apply for an emergency travel document or birth registration certificate along with parental consent affidavits signed by both parents."
+        }
+      },
+      {
+        "order": 2,
+        "category": "Standard Identity Papers",
+        "requirements": {
+          "traveler": "Original passport with minimum 6 months validity and 2 blank pages, plus National Identity Card (NIC).",
+          "medical": "Local medical reports, diagnostic scans, and referral letter from doctor in home country.",
+          "business": "Employer covering letter confirming designation, business purpose, and financial guarantee.",
+          "student": "Certified academic transcripts, mark sheets, and English language proficiency scores (IELTS/TOEFL).",
+          "child": "Child's birth certificate and a notarized parental consent letter if traveling with only one parent or legal guardian."
+        }
+      },
+      {
+        "order": 3,
+        "category": "Financial Support",
+        "requirements": {
+          "traveler": "Recent 3 to 6-month personal bank statements proving sufficient funds for stay in United States.",
+          "medical": "Bank statements from the last 3-6 months or hospital financial guarantee deposit to cover clinical expenses.",
+          "business": "Company bank statements (last 3-6 months) and company business registration certificate.",
+          "student": "Sponsor's 3-6 month bank statements and formal letter of financial support.",
+          "child": "Proof of financial sufficiency covering family and dependent child travel expenses during the trip to United States."
+        }
+      },
+      {
+        "order": 4,
+        "category": "Health & Vaccinations",
+        "requirements": {
+          "traveler": "Valid international travel health insurance covering medical emergencies in United States.",
+          "medical": "Health fitness certificates and medical clearance documentation required by United States health authorities.",
+          "business": "Travel insurance policy covering business travel equipment and medical emergencies.",
+          "student": "Mandatory student health examination, vaccination records, and medical clearance certificate.",
+          "child": "Child vaccination card (including polio, MMR, etc.) and pediatric health clearance certificate for international travel."
+        }
+      },
+      {
+        "order": 5,
+        "category": "Accommodation & Itinerary",
+        "requirements": {
+          "traveler": "Confirmed hotel bookings or host accommodation invitation letter with host ID proof.",
+          "medical": "Detailed accommodation arrangements near the treating hospital or medical center in United States.",
+          "business": "Itinerary of business meetings, trade conferences, or exhibition registrations in United States.",
+          "student": "Proof of university housing or initial accommodation booking upon arrival in United States.",
+          "child": "Child-friendly accommodation arrangements and confirmed return flight tickets for all accompanying minors."
+        }
+      }
+    ]
+  }
+]
