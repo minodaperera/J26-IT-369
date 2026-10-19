@@ -5,6 +5,8 @@ import MainLayout from './components/layout/MainLayout';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import NotFound from './pages/NotFound';
+import FraudChecker from './pages/FraudChecker';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/fraud-checker" element={<FraudChecker />} />
           </Routes>
         </MainLayout>
       </Router>
