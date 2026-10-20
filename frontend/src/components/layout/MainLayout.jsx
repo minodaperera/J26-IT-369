@@ -3,13 +3,22 @@ import Navbar from '../common/Navbar';
 
 const MainLayout = ({ children }) => {
   return (
-    <div className="app-container">
+    <div className="min-h-screen flex flex-col bg-[#faf8f5] text-slate-900 font-sans antialiased">
       <Navbar />
-      <main className="main-content">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {children}
       </main>
-      <footer style={{ textAlign: 'center', padding: '1.5rem', color: '#94a3b8', fontSize: '0.85rem', borderTop: '1px solid #e2e8f0', marginTop: 'auto' }}>
-        &copy; {new Date().getFullYear()} SafeMaga Research Group. All rights reserved.
+      <footer className="border-t border-[#e8e4df] bg-white py-6 mt-auto">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+          <div>
+            &copy; {new Date().getFullYear()} SafeMaga Intelligent Analytics. All rights reserved.
+          </div>
+          <div className="flex items-center gap-6">
+            <a href="/" className="hover:text-brand-800 transition">Home</a>
+            <a href="/about" className="hover:text-brand-800 transition">About Us</a>
+            <a href="/visa-timeline" className="hover:text-brand-800 transition">Visa Predictor</a>
+          </div>
+        </div>
       </footer>
     </div>
   );
