@@ -1,0 +1,12 @@
+{
+  "model_name": "Tuned Random Forest",
+  "test_mae_days": 1.8596958665325853,
+  "test_rmse_days": 2.3850396611794604,
+  "test_r2_score": 0.9380214559489647,
+  "test_median_absolute_error_days": 1.5066323776627497,
+  "baseline_test_mae_days": 1.98305,
+  "baseline_test_rmse_days": 2.575726169452025,
+  "baseline_test_r2_score": 0.9277147745232504,
+  "baseline_test_medae_days": 1.5899999999999999,
+  "test_sample_size": 2000
+}
