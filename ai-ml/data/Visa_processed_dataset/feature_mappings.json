@@ -1,0 +1,78 @@
+{
+  "pipeline_name": "Visa_preprocessing_pipeline",
+  "version": "1.0.0",
+  "n_features_in": 5,
+  "n_features_out": 22,
+  "feature_columns_out": [
+    "applicant_age",
+    "available_bank_balance_lkr",
+    "migration_type",
+    "bank_status",
+    "seasonal",
+    "age_category",
+    "destination_Australia",
+    "destination_Canada",
+    "destination_China",
+    "destination_France",
+    "destination_Germany",
+    "destination_India",
+    "destination_Italy",
+    "destination_Japan",
+    "destination_Malaysia",
+    "destination_New Zealand",
+    "destination_South Africa",
+    "destination_South Korea",
+    "destination_Turkey",
+    "destination_UAE",
+    "destination_UK",
+    "destination_USA"
+  ],
+  "migration_type_mapping": {
+    "first_time": 0,
+    "repeat": 1
+  },
+  "min_bank_balance_requirements_lkr": {
+    "USA": 1800000,
+    "UK": 1200000,
+    "Australia": 1000000,
+    "Canada": 890000,
+    "Italy": 800000,
+    "China": 550000,
+    "Germany": 500000,
+    "France": 500000,
+    "South Korea": 450000,
+    "Japan": 400000,
+    "Turkey": 350000,
+    "UAE": 300000,
+    "South Africa": 300000,
+    "Malaysia": 250000,
+    "New Zealand": 185000,
+    "India": 100000
+  },
+  "seasonal_months": [
+    1,
+    4,
+    8,
+    12
+  ],
+  "age_category_rules": {
+    "young": {
+      "code": 0,
+      "threshold": "<= 25"
+    },
+    "prime_working_age": {
+      "code": 1,
+      "threshold": "26 - 50"
+    },
+    "senior_citizen": {
+      "code": 2,
+      "threshold": ">= 51"
+    },
+    "valid_age_bounds": [
+      18,
+      69
+    ]
+  },
+  "training_samples": 8000,
+  "testing_samples": 2000
+}

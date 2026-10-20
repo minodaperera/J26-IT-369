@@ -1,0 +1,2 @@
+# Place preprocessed, normalized, and feature-engineered datasets here.
+# Processed datasets are generated deterministically by src/preprocessing/clean_data.py.
