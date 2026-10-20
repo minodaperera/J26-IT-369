@@ -19,7 +19,7 @@ const executePrediction = async (req, res, next) => {
     try {
       savedRecord = await AnalysisResult.create({
         userId: req.user ? req.user.id : null,
-        inputQuery: input,
+        inputQuery: typeof input === 'object' ? JSON.stringify(input) : String(input),
         inferenceOutput: aiResponse.data,
         modelVersion: aiResponse.data.modelVersion || 'v1.0.0',
         latencyMs: aiResponse.latencyMs,
