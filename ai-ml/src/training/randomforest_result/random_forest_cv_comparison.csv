@@ -1,0 +1,3 @@
+Model,Mean CV MAE,Mean CV RMSE,Mean CV R2,Mean CV MedAE,MAE Delta (Days),MAE Delta (%)
+Baseline Random Forest (Default),2.0017 +/- 0.0442,2.5705 +/- 0.0688,0.9258 +/- 0.0042,1.6260 +/- 0.0268,0.0000,0.00%
+Tuned Random Forest (Optuna TPE),1.8807 +/- 0.0361,2.4110 +/- 0.0571,0.9347 +/- 0.0034,1.5364 +/- 0.0144,-0.1210,-6.05%
