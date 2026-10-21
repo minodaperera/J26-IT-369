@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* SafeMaga palette (project colour board). Tailwind v4 reads theme tokens from here, not from tailwind.config.js.
+   Usage: bg-brand, text-secondary, bg-action (buttons), bg-accent-light ... */
+@theme {
+  --color-brand: #542d1e;          /* primary base */
+  --color-brand-light: #7a4a37;
+  --color-secondary: #986629;      /* secondary */
+  --color-secondary-light: #c58a45;
+  --color-action: #b0a74a;         /* buttons */
+  --color-action-dark: #968e38;
+  --color-accent: #66ac92;         /* used a little */
+  --color-accent-light: #e6f3ee;
+  --color-ink: #38383a;            /* body text */
+  --font-sans: "Inter", "Noto Sans Sinhala", "Noto Sans Tamil", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html, body {
+    background-color: #ffffff;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 {
+    font-weight: 700;
+    color: var(--color-brand);
+  }
+}
+
+/* Shared component classes used by every module.
+   (.btn-primary / .btn-secondary are kept for the original template pages and Button.jsx.) */
+@layer components {
+  .btn,
+  .btn-primary {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg bg-action px-4 py-2 text-sm font-semibold text-brand shadow-sm transition hover:bg-action-dark focus:outline-hidden focus:ring-2 focus:ring-secondary disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-secondary {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg bg-gray-200 px-4 py-2 text-sm font-semibold text-ink transition hover:bg-gray-300 focus:outline-hidden focus:ring-2 focus:ring-secondary disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-outline {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-brand px-4 py-2 text-sm font-semibold text-brand transition hover:bg-brand hover:text-white focus:outline-hidden focus:ring-2 focus:ring-secondary;
+  }
+  .card {
+    @apply rounded-xl border border-gray-200 bg-white p-5 shadow-sm;
+  }
+  .input {
+    @apply w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-ink focus:border-secondary focus:outline-hidden focus:ring-1 focus:ring-secondary;
+  }
+  .label {
+    @apply mb-1 block text-sm font-medium text-brand;
+  }
+  .chip {
+    @apply inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold;
+  }
+}

@@ -1,0 +1,17 @@
+/*
+ * Legacy CSS variables kept for the original template styles.
+ * NOTE (Tailwind v4): do NOT add global resets here (e.g. `* { margin:0; padding:0 }` or `a { color: inherit }`).
+ * Un-layered rules beat Tailwind's layered utilities and silently disable classes like p-4, mb-2 and text-white.
+ * Tailwind's preflight already provides the reset, and the base styles live in src/index.css.
+ */
+:root {
+  --primary-color: #542d1e;
+  --primary-hover: #7a4a37;
+  --secondary-color: #986629;
+  --bg-color: #ffffff;
+  --surface-color: #ffffff;
+  --text-primary: #38383a;
+  --text-secondary: #5b5b5e;
+  --border-color: #e2e8f0;
+  --accent-color: #66ac92;
+}
