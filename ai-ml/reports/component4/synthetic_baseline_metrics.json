@@ -1,0 +1,71 @@
+{
+  "dataset_type": "Synthetic demonstration only",
+  "total_samples": 50,
+  "train_samples": 40,
+  "test_samples": 10,
+  "labels": [
+    "Safe",
+    "High-Risk Scam"
+  ],
+  "selected_model": "Linear SVM",
+  "cv_results": {
+    "Logistic Regression": {
+      "mean_f1": 0.7679924242424243,
+      "std_f1": 0.04100499070949048,
+      "fold_scores": [
+        0.7916666666666667,
+        0.7916666666666667,
+        0.7916666666666667,
+        0.696969696969697
+      ]
+    },
+    "Linear SVM": {
+      "mean_f1": 0.79375,
+      "std_f1": 0.0036084391824351483,
+      "fold_scores": [
+        0.7916666666666667,
+        0.7916666666666667,
+        0.7916666666666667,
+        0.8
+      ]
+    }
+  },
+  "held_out_test_report": {
+    "Safe": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "High-Risk Scam": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      5,
+      0
+    ],
+    [
+      0,
+      5
+    ]
+  ],
+  "limitation": "Results are from a small synthetic dataset. They do not establish real-world performance."
+}

@@ -6,7 +6,8 @@ import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import NotFound from './pages/NotFound';
 import FraudChecker from './pages/FraudChecker';
-
+import FraudAwarenessHub from "./pages/FraudAwarenessHub";
+import Component4AdminDemo from "./pages/Component4AdminDemo";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/fraud-checker" element={<FraudChecker />} />
+            <Route path="/fraud-awareness" element={<FraudAwarenessHub />} />
+            <Route path="/component4-admin-demo"element={<Component4AdminDemo />}/>
           </Routes>
         </MainLayout>
       </Router>

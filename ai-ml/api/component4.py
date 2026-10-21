@@ -5,6 +5,10 @@ from pydantic import BaseModel, Field
 import io
 import shutil
 
+from pathlib import Path
+from functools import lru_cache
+import joblib
+
 import pytesseract
 from PIL import Image, ImageOps, UnidentifiedImageError
 from fastapi import UploadFile, File, HTTPException
@@ -200,3 +204,186 @@ async def analyze_advertisement_image(
             "Risk results are preliminary."
         )
     }
+
+
+
+# ====================================================
+# Component 4 - Machine Learning Fraud Prediction
+# SafeMaga Research Prototype
+# ====================================================
+
+MODEL_PATH = (
+    Path(__file__).resolve().parents[1]
+    / "saved_models"
+    / "component4_fraud_baseline.joblib"
+)
+
+
+@lru_cache(maxsize=1)
+def load_component4_model():
+    """
+    Load the trained ML model.
+    The model is loaded only once and cached.
+    """
+
+    if not MODEL_PATH.exists():
+        raise FileNotFoundError(
+            f"Trained model not found: {MODEL_PATH}"
+        )
+
+    # Only load locally generated, trusted model files.
+    artifact = joblib.load(MODEL_PATH)
+
+    if "pipeline" not in artifact:
+        raise ValueError("Invalid model artifact")
+
+    return artifact
+
+@router.post("/predict-ml")
+def predict_ml_advertisement(
+    payload: AdvertisementRequest
+):
+    """
+    Predict advertisement risk using the trained
+    Linear SVM and explain its feature contributions.
+    """
+
+    try:
+        artifact = load_component4_model()
+
+    except FileNotFoundError:
+        raise HTTPException(
+            status_code=503,
+            detail="ML model not found. Train the model first."
+        )
+
+    except Exception:
+        raise HTTPException(
+            status_code=503,
+            detail="Unable to load the ML model."
+        )
+
+    try:
+        text = payload.text.strip()
+
+        pipeline = artifact["pipeline"]
+
+        # Step 1: Make the actual ML prediction
+        prediction = str(pipeline.predict([text])[0])
+
+        # Step 2: Access the trained pipeline components
+        vectorizer = pipeline.named_steps["tfidf"]
+        classifier = pipeline.named_steps["classifier"]
+
+        # Current research model is a binary Linear SVM
+        if (
+            len(classifier.classes_) != 2
+            or classifier.coef_.shape[0] != 1
+        ):
+            raise ValueError(
+                "Explanation requires a binary linear classifier."
+            )
+
+        # Step 3: Calculate TF-IDF values for this input
+        vectorized_text = vectorizer.transform([text])
+
+        feature_names = vectorizer.get_feature_names_out()
+        model_weights = classifier.coef_[0]
+
+        # For sklearn binary LinearSVC, positive decision
+        # scores correspond to classes_[1].
+        # Reverse the contributions when the model
+        # predicts classes_[0].
+        predicted_class_sign = (
+            1.0
+            if prediction == str(classifier.classes_[1])
+            else -1.0
+        )
+
+        # Step 4: Calculate the local feature contributions
+        sparse_features = vectorized_text.tocoo()
+
+        feature_contributions = []
+
+        for feature_index, tfidf_value in zip(
+            sparse_features.col,
+            sparse_features.data
+        ):
+            contribution = (
+                float(tfidf_value)
+                * float(model_weights[feature_index])
+                * predicted_class_sign
+            )
+
+            if abs(contribution) < 1e-10:
+                continue
+
+            feature_contributions.append({
+                "feature": str(feature_names[feature_index]),
+                "contribution": round(contribution, 6)
+            })
+
+        # Positive contributions support the predicted class
+        supporting_features = sorted(
+            [
+                item for item in feature_contributions
+                if item["contribution"] > 0
+            ],
+            key=lambda item: item["contribution"],
+            reverse=True
+        )[:5]
+
+        # Negative contributions oppose the predicted class
+        opposing_features = sorted(
+            [
+                item for item in feature_contributions
+                if item["contribution"] < 0
+            ],
+            key=lambda item: item["contribution"]
+        )[:5]
+
+        # Step 5: Return prediction and real ML explanation
+        return {
+            "success": True,
+            "prediction": prediction,
+            "modelName": artifact["model_name"],
+            "method": "Character TF-IDF + ML classifier",
+            "trainingSource": artifact["training_source"],
+            "supportedLabels": artifact["labels"],
+            "confidence": None,
+            "researchStatus": "Synthetic-data prototype",
+
+            "explanation": {
+                "method": (
+                    "Local linear model feature contributions"
+                ),
+                "predictedClass": prediction,
+                "supportingFeatures": supporting_features,
+                "opposingFeatures": opposing_features,
+                "note": (
+                    "Each value is the character n-gram's "
+                    "TF-IDF value multiplied by its learned "
+                    "Linear SVM coefficient, oriented toward "
+                    "the predicted class. Only the five "
+                    "strongest features in each direction "
+                    "are shown. Features can overlap and "
+                    "the model intercept is not displayed. "
+                    "These values are not probabilities "
+                    "or proof of fraud."
+                )
+            },
+
+            "disclaimer": (
+                "This model was trained using 50 synthetic "
+                "advertisements. It has not been validated "
+                "on genuine migration scam advertisements. "
+                "A Safe prediction does not prove legitimacy."
+            )
+        }
+
+    except Exception:
+        raise HTTPException(
+            status_code=500,
+            detail="ML prediction or explanation failed."
+        )
+
