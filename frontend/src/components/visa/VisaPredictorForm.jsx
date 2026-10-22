@@ -50,7 +50,7 @@ export const VisaPredictorForm = ({
               Applicant Age
             </label>
             <span className="text-xs font-bold text-stone-900">
-              {formData.applicant_age} <span className="font-normal text-stone-500">years</span>
+              {formData.applicant_age || 18} <span className="font-normal text-stone-500">years</span>
             </span>
           </div>
           <div className="flex items-center gap-3">
@@ -58,7 +58,7 @@ export const VisaPredictorForm = ({
               type="range"
               min={18}
               max={69}
-              value={formData.applicant_age}
+              value={formData.applicant_age || 18}
               onChange={(e) => setFormData((prev) => ({ ...prev, applicant_age: parseInt(e.target.value) || 18 }))}
               className="flex-1 accent-[#451e11] cursor-pointer h-1.5 bg-stone-200 rounded-lg"
             />
@@ -66,8 +66,21 @@ export const VisaPredictorForm = ({
               type="number"
               min={18}
               max={69}
-              value={formData.applicant_age}
-              onChange={(e) => setFormData((prev) => ({ ...prev, applicant_age: parseInt(e.target.value) || 18 }))}
+              value={formData.applicant_age === '' ? '' : formData.applicant_age}
+              onChange={(e) => {
+                const val = e.target.value;
+                setFormData((prev) => ({
+                  ...prev,
+                  applicant_age: val === '' ? '' : (val.startsWith('0') && val.length > 1 ? parseInt(val) : val),
+                }));
+              }}
+              onBlur={() => {
+                if (formData.applicant_age === '' || Number(formData.applicant_age) < 18) {
+                  setFormData((prev) => ({ ...prev, applicant_age: 18 }));
+                } else if (Number(formData.applicant_age) > 69) {
+                  setFormData((prev) => ({ ...prev, applicant_age: 69 }));
+                }
+              }}
               className="w-16 px-2.5 py-1.5 text-center text-xs font-bold rounded-lg border border-stone-200 bg-stone-50 focus:bg-white focus:border-[#451e11] focus:outline-none text-stone-900"
             />
           </div>
@@ -86,10 +99,19 @@ export const VisaPredictorForm = ({
               type="number"
               min={0}
               step={50000}
-              value={formData.available_bank_balance_lkr}
-              onChange={(e) =>
-                setFormData((prev) => ({ ...prev, available_bank_balance_lkr: parseFloat(e.target.value) || 0 }))
-              }
+              value={formData.available_bank_balance_lkr === '' ? '' : formData.available_bank_balance_lkr}
+              onChange={(e) => {
+                const val = e.target.value;
+                setFormData((prev) => ({
+                  ...prev,
+                  available_bank_balance_lkr:
+                    val === ''
+                      ? ''
+                      : val.startsWith('0') && val.length > 1 && !val.startsWith('0.')
+                      ? parseFloat(val)
+                      : val,
+                }));
+              }}
               placeholder="e.g. 2500000"
               required
               className="w-full pl-12 pr-3.5 py-2.5 text-sm font-semibold rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-white focus:bg-white focus:border-[#451e11] focus:ring-2 focus:ring-[#451e11]/15 text-stone-900 outline-none transition"
@@ -131,7 +153,7 @@ export const VisaPredictorForm = ({
         {/* Submission Date */}
         <div>
           <label className="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-2">
-            Submission Date
+            Document Submission Date
           </label>
           <div className="relative">
             <input

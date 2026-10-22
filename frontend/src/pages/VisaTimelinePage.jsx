@@ -59,9 +59,14 @@ export const VisaTimelinePage = () => {
     setError('');
 
     try {
-      const predictionResponse = await predictionService.predictVisaTime(formData, endpointMode);
+      const payload = {
+        ...formData,
+        available_bank_balance_lkr: parseFloat(formData.available_bank_balance_lkr) || 0,
+        applicant_age: parseInt(formData.applicant_age) || 18,
+      };
+      const predictionResponse = await predictionService.predictVisaTime(payload, endpointMode);
       setResult(predictionResponse);
-      setLastTestedInput({ ...formData });
+      setLastTestedInput({ ...payload });
 
       // Add to local test history
       setHistory((prev) => [
@@ -71,7 +76,7 @@ export const VisaTimelinePage = () => {
           flag: activeDestObj.flag,
           type: formData.migration_type,
           days: predictionResponse.estimated_processing_days_rounded || Math.round(predictionResponse.predicted_processing_days),
-          balance: formData.available_bank_balance_lkr,
+          balance: parseFloat(formData.available_bank_balance_lkr) || 0,
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
         },
         ...prev.slice(0, 3),
